@@ -1,10 +1,10 @@
 
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        "VGA Animated Beach"      # Project title
+  author:       "Jose Miguel Caicedo Ortiz"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "This project implements a dynamic 640x480 VGA beach scene animation for the Tiny Tapeout platform using pure combinational logic. The hardware generates a rhythmic moving tide, a sun with twinkling rays, a flying airplane, a palm tree, and a beach ball with a projected shadow. It utilizes a 6-bit RGB palette and internal frame counters to render and animate complex geometric shapes without requiring external RAM."      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     25175000       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -31,7 +31,7 @@ pinout:
   ui[6]: ""
   ui[7]: ""
 
-  # Outputs
+  # Outputs (Tiny VGA Pmod, RGB222)
   uo[0]: "R1"
   uo[1]: "G1"
   uo[2]: "B1"
