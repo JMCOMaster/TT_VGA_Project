@@ -4,6 +4,7 @@
 
 Welcome to the VGA Beach Animation project for Tiny Tapeout! 
 
+![Vista previa de la playa](docs/BeachPreview.png)
 
 This repository contains a hardware-level digital design that generates a dynamic 640x480 VGA scene using pure combinational Verilog logic. 
 
