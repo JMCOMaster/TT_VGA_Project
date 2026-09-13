@@ -18,7 +18,7 @@ For a comprehensive breakdown of the project, including:
 * How the area-optimized mathematics (Manhattan distance) and rendering engine work.
 * Step-by-step instructions for web simulation, local Cocotb testbenches, and physical hardware deployment.
 
-👉 **Please refer to the full project documentation located at [`docs/info.md`](docs/info.md).**
+**Please refer to the project documentation located at [`docs/info.md`](docs/info.md).**
 
 ## Resources
 
