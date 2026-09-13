@@ -1,27 +1,24 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Tiny Tapeout Verilog Project Template
+# Tiny Tapeout VGA Beach Animation 🏖️
 
-- [Read the documentation for project](docs/info.md)
+Welcome to the VGA Beach Animation project for Tiny Tapeout! 
 
-## What is Tiny Tapeout?
+![Vista previa de la playa](docs/BeachPreview.png)
 
-Tiny Tapeout is an educational project that aims to make it easier and cheaper than ever to get your digital and analog designs manufactured on a real chip.
+This repository contains a hardware-level digital design that generates a dynamic 640x480 VGA scene using pure combinational Verilog logic. 
 
-To learn more and get started, visit https://tinytapeout.com.
+Designed to fit in a standard 1x1 tile, the circuit renders a moving sun, rolling sea waves, an airplane, and a beach ball without relying on external RAM, frame buffers, or resource-heavy hardware multipliers.
 
-## Set up your Verilog project
+## 📖 Project Documentation
 
-1. Add your Verilog files to the `src` folder.
-2. Edit the [info.yaml](info.yaml) and update information about your project, paying special attention to the `source_files` and `top_module` properties. If you are upgrading an existing Tiny Tapeout project, check out our [online info.yaml migration tool](https://tinytapeout.github.io/tt-yaml-upgrade-tool/).
-3. Edit [docs/info.md](docs/info.md) and add a description of your project.
-4. Adapt the testbench to your design. See [test/README.md](test/README.md) for more information.
+To keep this repository clean, the detailed explanation of the hardware architecture and testing instructions have been moved to the documentation folder.
 
-The GitHub action will automatically build the ASIC files using [LibreLane](https://www.zerotoasiccourse.com/terminology/librelane/).
+For a comprehensive breakdown of the project, including:
+* How the area-optimized mathematics (Manhattan distance) and rendering engine work.
+* Step-by-step instructions for web simulation, local Cocotb testbenches, and physical hardware deployment.
 
-## Enable GitHub actions to build the results page
-
-- [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
+👉 **Please refer to the full project documentation located at [`docs/info.md`](docs/info.md).**
 
 ## Resources
 
@@ -31,12 +28,3 @@ The GitHub action will automatically build the ASIC files using [LibreLane](http
 - [Join the community](https://tinytapeout.com/discord)
 - [Build your design locally](https://www.tinytapeout.com/guides/local-hardening/)
 
-## What next?
-
-- [Submit your design to the next shuttle](https://app.tinytapeout.com/).
-- Edit [this README](README.md) and explain your design, how it works, and how to test It.
-- Share your project on your social network of choice:
-  - LinkedIn [#tinytapeout](https://www.linkedin.com/search/results/content/?keywords=%23tinytapeout) [@TinyTapeout](https://www.linkedin.com/company/100708654/)
-  - Mastodon [#tinytapeout](https://chaos.social/tags/tinytapeout) [@matthewvenn](https://chaos.social/@matthewvenn)
-  - X (formerly Twitter) [#tinytapeout](https://twitter.com/hashtag/tinytapeout) [@tinytapeout](https://twitter.com/tinytapeout)
-  - Bluesky [@tinytapeout.com](https://bsky.app/profile/tinytapeout.com)
