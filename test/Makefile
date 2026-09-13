@@ -11,7 +11,7 @@ ifneq ($(GATES),yes)
 
 # RTL simulation:
 SIM_BUILD				= sim_build/rtl
-VERILOG_SOURCES += $(PWD)/../src/project.v $(PWD)/../src/hvsync_generator.v $(PWD)/tb.v
+VERILOG_SOURCES += $(PWD)/../src/project.v $(PWD)/../src/hvsync_generator.v 
 
 else
 
