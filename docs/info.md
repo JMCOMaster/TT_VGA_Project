@@ -20,4 +20,5 @@ Finally, a priority multiplexer acts as the rendering layer engine. It evaluates
 For web simulation, paste the Verilog source code into an online simulator like VGA Playground (https://vga-playground.com/), ensuring the clock is set to the industry standard 25.175 MHz for 640x480 resolution at 60Hz, and define the top module as tt_um_vga_example. To test locally, run the included Cocotb testbench by executing make inside the test directory. This stimulates the clock and reset inputs to verify that the hardware sync signals operate at the correct timings, allowing you to inspect the resulting output file using GTKWave. Once manufactured on the Tiny Tapeout ASIC, hardware deployment requires connecting a TinyVGA PMOD to the output pins, supplying a 25.175 MHz clock, pulling the reset pin high, and connecting a standard VGA monitor to view the real-time animation.
 
 ## External hardware
-TinyVGA PMOD
+
+Tiny VGA Pmod driving a VGA monitor.
